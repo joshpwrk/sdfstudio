@@ -7,7 +7,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 ## Set timezone as it is required by some packages.
 ENV TZ=Europe/Berlin
 ## CUDA architectures, required by tiny-cuda-nn.
-ENV TCNN_CUDA_ARCHITECTURES=86
+ENV TCNN_CUDA_ARCHITECTURES=89
 ## CUDA Home, required to find CUDA in some packages.
 ENV CUDA_HOME="/usr/local/cuda"
 
